@@ -18,5 +18,8 @@ public class BukuMain27 {
         Buku27 bk2 = new Buku27("Self Reward", "Maheera Ayesha", 160, 29, 59_000);
         bk2.terjual(11);
         bk2.tampilInformasi();
+
+        System.out.println();
+        Buku27 bukuTio = new Buku27("Buku Tulis MatDas", "Tionusa", 50, 1, 3500);
     }
 }
