@@ -1,0 +1,17 @@
+git init			// Membuat repo lokal
+git add <file>			// Menambah file ke staging area (git add . = add all files)
+git commit -m "pesan"		// Memindahkan pesan dari staging area ke History Commit
+git push origin <branch>	// Mengupload commit ke github
+git remote add <link>		// Menyambungkan github repo ke lokal
+git checkout <branch>		// Pindah branch (-b = Create & Move to branch)
+git branch -M <branch>		// Membuat branch
+
+git status			// Melihat status git di lokal
+
+git reset --hard <commit id>	// Balik ke commit id tertentu
+git reset HEAD~			// Undo commit
+
+git log -1 --raw		// Melihat history 1(bisa diubah) commit dan file yang dicommit(--raw)
+gitk --all			// Visual history commit
+
+echo {text} >> {file name}	// Membuat/mengedit file
